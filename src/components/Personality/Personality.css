@@ -1,0 +1,117 @@
+.section_personality {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 100px;
+}
+
+.section_personality:last-of-type {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 50px;
+}
+
+.personality_description {
+    font-family: chaparral-pro, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.personality__show_more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.show_more {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: chaparral-pro-caption, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.show_more img {
+    width: 100%;
+    width: 15px;
+}
+
+/*-----------------Team------------------*/
+.team_container {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 30px 70px;
+}
+
+.team_block {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 0 0 50px 0;
+}
+
+.team_img img {
+   width: 100%;
+}
+
+.team_name {
+    font-family: chaparral-pro-caption, serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 0 0px;
+}
+
+.team_titel {
+    font-family: chaparral-pro-display, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+/*----------------Mobile----------------*/
+@media all and (max-width: 600px) {
+    .team_container {
+        padding: 0 20px 70px;
+    }
+
+    .team_block {
+        width: 47%;
+        padding: 0 0 30px 0;
+    }
+
+    .team_name {
+        font-size: 14px;
+    }
+
+    .team_titel {
+        font-size: 14px;
+    }
+
+    .show_more {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .section_personality {
+        padding: 0 20px 100px;
+    }
+}

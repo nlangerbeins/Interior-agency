@@ -1,0 +1,115 @@
+.section_explore {
+    position: relative;
+}
+
+.section_explore__bg {
+    width: 100%; 
+}
+
+.section_explore__bg img {
+    width: 100vw;
+    height: 350px;
+}
+
+.section_explore__descr {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 215px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.heading_explore {
+    font-family: chaparral-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn_explore {
+    padding: 15px 80px;
+    background: none;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-family: chaparral-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.explore_link {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn_explore:hover {
+    background-color: rgba(238, 238, 238, 0.5);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+
+/*--------------------------Mobile Version-------------------------*/
+@media all and (max-width: 768px) {
+    .section_explore__bg img {
+        height: 300px;
+    }
+
+    .section_explore__descr {
+        top: 80px;
+        left: calc(50% - 175px);
+        gap: 55px;
+    }
+
+    .heading_explore {
+        font-size: 34px;
+    }
+    
+    .btn_explore {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .section_explore__bg img {
+        height: 270px;
+    }
+
+    .section_explore__descr {
+        top: 80px;
+        left: calc(50% - 160px);
+        gap: 35px;
+    }
+
+    .heading_explore {
+        font-size: 30px;
+    }
+
+    .btn_explore {
+        padding: 15px 60px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .section_explore__bg img {
+        height: 230px;
+    }
+
+    .section_explore__descr {
+        top: 70px;
+        left: calc(50% - 120px);
+        gap: 35px;
+    }
+
+    .heading_explore {
+        font-size: 22px;
+    }
+
+    .btn_explore {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+}
