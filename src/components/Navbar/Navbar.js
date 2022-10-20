@@ -21,21 +21,22 @@ function Navbar() {
   window.addEventListener("scroll", changeColor, true);
 
   const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <div className={color ? "navbar" : "navbarScrolled"}>
       <nav className="navbar_container">
         <div className={`nav_items ${isOpen && "open"}`}>
-          <Link to='/' className='nav_link'>Home</Link>
-          <Link to='/Personality' className='nav_link'>Personality</Link>
-          <Link to='/Projects' className='nav_link'>Projects</Link>
-          <Link to='/Services' className='nav_link'>Services</Link>
+          <Link to='/' className='nav_link' onClick={toggleMenu}>Home</Link>
+          <Link to='/Personality' className='nav_link' onClick={toggleMenu}>Personality</Link>
+          <Link to='/Projects' className='nav_link' onClick={toggleMenu}>Projects</Link>
+          <Link to='/Services' className='nav_link' onClick={toggleMenu}>Services</Link>
         </div>
         <Link to='/' className='nav_logo'>
           <span className='logo_top'>NewL</span>
           <span className='logo_bottom'>Düsseldorf</span>
         </Link>
-        <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
+        <div className={`nav_toggle ${isOpen && "open"}`} onClick={toggleMenu}>
           <div className="bar"></div>
         </div>
       </nav>

@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-
+import GoToTop from './components/GoToTop';
 
 
 function App() {
@@ -27,7 +27,8 @@ function App() {
           <Route path='/Projects' element={<Projects/>}/>
           <Route path='/Services' element={<Services/>}/>
         </Routes>
-        <Footer/>
+        <Footer />
+        <GoToTop />
       </div>
     </Router>
   );
