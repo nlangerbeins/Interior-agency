@@ -11,7 +11,7 @@ function Footer() {
     return (
         <div className="footer_section">
             <div className="section_contact">
-                <div data-aos="flip-left" data-aos-duration="1500" className="section_contact__left">
+                <div data-aos="fade-up" data-aos-duration="1500" className="section_contact__left">
                     <div className="contact">
                         <div className='sh__left_name'>
                                 <p>contact</p>
@@ -35,7 +35,7 @@ function Footer() {
                         </div>
                     </div>       
                 </div>
-                <div data-aos="flip-right" data-aos-duration="1500"  className="section_contact__right">
+                <div data-aos="fade-up" data-aos-duration="1500"  className="section_contact__right">
                     <div className="contact">
                         <div className='sh__left_name'>
                                 <p>Let’s talk about your project. Get in touch</p>

@@ -38,7 +38,7 @@ function Home() {
                             <p>Because beautiful things are better</p>
                         </div>
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="1500"  className='section_header__right'>
+                    <div data-aos="flip-left" data-aos-duration="1500"  className='section_header__right'>
                         <div className='sh__right_description'>
                             <p>With our way of seeing things and life, we want to touch and enrich. In doing so, we feel fully commited to beauty.</p>
                         </div>
@@ -56,7 +56,7 @@ function Home() {
             </section>
             <section className='section'>
                 <div className='section_header'>
-                    <div data-aos="flip-left" data-aos-duration="1500" className='section_header__left'>
+                    <div data-aos="flip-left" data-aos-duration="1500"  className='section_header__left'>
                         <div className='sh__left_name'>
                             <p>PROJECTS</p>
                             <img src={lineLong} alt='line'/>
@@ -65,7 +65,7 @@ function Home() {
                             <p>We believe in the power of an idea and the art of craftsmanship</p>
                         </div>
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="1500" className='section_header__right'>
+                    <div data-aos="flip-left" data-aos-duration="1500"  className='section_header__right'>
                         <div className='sh__right_description'>
                             <p>We are searching for innovations that appear familiar, for provocations that touch our inner self, for functional gravity that makes us laugh. We are working with emotions and all our senses. The customer’s requirements, technical hard facts, aesthetical aspects - step by step everything is integrated into the design process.</p>
                         </div>
@@ -83,7 +83,7 @@ function Home() {
             </section>
             <section className='section'>
                 <div className='section_header'>
-                    <div data-aos="flip-left" data-aos-duration="1500" className='section_header__left'>
+                    <div data-aos="flip-left" data-aos-duration="1500"  className='section_header__left'>
                         <div className='sh__left_name'>
                             <p>SERVICES</p>
                             <img src={lineLong} alt='line'/>
@@ -92,7 +92,7 @@ function Home() {
                             <p>We believe in the power of an idea and the art of craftsmanship</p>
                         </div>
                     </div>
-                    <div data-aos="flip-right" data-aos-duration="1500" className='section_header__right'>
+                    <div data-aos="flip-left" data-aos-duration="1500"  className='section_header__right'>
                         <div className='sh__right_description'>
                             <p>We are searching for innovations that appear familiar, for provocations that touch our inner self, for functional gravity that makes us laugh. We are working with emotions and all our senses. The customer’s requirements, technical hard facts, aesthetical aspects - step by step everything is integrated into the design process.</p>
                         </div>
