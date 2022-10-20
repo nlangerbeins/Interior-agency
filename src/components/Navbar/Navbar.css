@@ -133,14 +133,14 @@
 
   .nav_toggle {
     display: flex;
-    width: 70px;
+    width: 100px;
     height: 50px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
   }
 
-  .nav_toggle > .bar {
+  .bar {
     position: relative;
     width: 35px;
     height: 1px;
@@ -148,8 +148,8 @@
     transition: all 0.45s ease-in-out;
   }
 
-  .nav_toggle > .bar::before,
-  .nav_toggle > .bar::after {
+  .bar::before,
+  .bar::after {
     content: "";
     position: absolute;
     height: 1px;
@@ -158,13 +158,13 @@
     transition: all 0.45s ease-in-out;
   }
 
-  .nav_toggle > .bar::before {
+  .bar::before {
     width: 28px;
     transform: translateY(-8px);
     right: 0;
   }
 
-  .nav_toggle > .bar::after {
+  .bar::after {
     width: 35px;
     transform: translateY(8px);
   }

@@ -115,4 +115,8 @@
     .section_personality {
         padding: 0 20px 100px;
     }
+
+    .section_personality:last-of-type {
+        padding: 0 20px 0px;
+    }
 }
