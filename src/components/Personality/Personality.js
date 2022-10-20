@@ -40,13 +40,13 @@ function Personality() {
         <div className="personality_titel">
             <img src={personality} className="slider_img"/>
         </div>
-        <div className='description'>
+        <div data-aos="fade-up" data-aos-duration="1500"  className='description'>
             <h3>We are untied by our love to beautiful things</h3>
             <p>Our aim is to realise and exceed the vision of each client, reacting a cohesive and authentic space. We take on both residential and commercial projects of varying scopes.</p>
         </div>
         <section className='section_personality'>
                 <div className='section_header'>
-                    <div className='section_header__left'>
+                    <div data-aos="fade-right" data-aos-duration="1500"  className='section_header__left'>
                         <div className='sh__left_name'>
                             <p>Personality</p>
                             <img src={lineLong} alt='line'/>
@@ -55,7 +55,7 @@ function Personality() {
                             <p>Because beautiful things are better</p>
                         </div>
                     </div>
-                    <div className='section_header__right'>
+                    <div data-aos="fade-left" data-aos-duration="1500"  className='section_header__right'>
                         <div className='personality_description'>
                             <ExpandableText descriptionLength={250}>
                             Our business aim is to be the best architectural partner, understanding and developing our clients’ business, in balance with designing a spatial experience. We are driven by the desire to develop exceptional value-end products for our clients, and are present both as advisors and partners throughout the process, all the way from early strategy and creative design through to the final realisation. For us, it is not just about applying our own core values, but about working on what delivers the best results and determining how we can achieve them. 
@@ -63,13 +63,13 @@ function Personality() {
                         </div>
                     </div>
                 </div>
-                <div className='section_img'>
+                <div data-aos="fade-up" data-aos-duration="1500"  className='section_img'>
                     <img src={teamImage} alt='office'/>
                 </div>
             </section>
             <section className="section_personality">
                 <div className='section_header'>
-                    <div className='section_header__left'>
+                    <div data-aos="fade-right" data-aos-duration="1500"  className='section_header__left'>
                         <div className='sh__left_name'>
                             <p>OUR TEAM</p>
                             <img src={lineLong} alt='line'/>
@@ -78,7 +78,7 @@ function Personality() {
                             <p>We work with all emotions and senses</p>
                         </div>
                     </div>
-                    <div className='section_header__right'>
+                    <div data-aos="fade-left" data-aos-duration="1500"  className='section_header__right'>
                         <div className='personality_description'>
                             <ExpandableText descriptionLength={250}>
                             With each project, we start with a blank page and let our clients’ objectives and brand ambitions determine the development of a project’s path rather than basing it solely on our own architectural taste. Our team of designers have a varied international background, and are keen to find the best soultions for your project. When thoughts come together, experiences are shared and individuals come forward, increasing the possibility of producing innovative and value enhancing architecture. This forms the basis of our successful philosophy and is at the core of all our activities. 

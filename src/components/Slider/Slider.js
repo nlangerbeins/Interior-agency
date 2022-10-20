@@ -36,11 +36,11 @@ function Slider() {
         setSlide(index)
     }
 
-    // slider with interval 3s
+    // slider with interval 5s
     useEffect(()=>{
         const interval = setInterval(()=>{
             next();        
-        }, 3000);
+        }, 5000);
         return () => clearInterval(interval);
     });
 

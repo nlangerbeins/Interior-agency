@@ -7,7 +7,7 @@ function Team ({teamPersonal}) {
                 const {idTeam, name, titel, image} = element;
             
             return (
-                <div key={idTeam} className="team_block">
+                <div data-aos="fade-up" data-aos-duration="1500"  key={idTeam} className="team_block">
                     <div className="team_img">
                         <img src={image} alt="person"/>
                     </div>

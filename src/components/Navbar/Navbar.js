@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -22,6 +24,10 @@ function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <div className={color ? "navbar" : "navbarScrolled"}>

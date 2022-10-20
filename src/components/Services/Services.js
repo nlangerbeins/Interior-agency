@@ -13,7 +13,7 @@ function Services() {
         <div className="personality_titel">
             <img src={titel} className="slider_img"/>
         </div>
-        <div className='description'>
+        <div data-aos="fade-up" data-aos-duration="1500" className='description'>
             <h3>Where know-how meets instinct</h3>
             <p>Our comprehensive services includes interior architecture, concept design, property concept development, 3D visualizations, tenant customization, construction drawings.</p>
         </div>

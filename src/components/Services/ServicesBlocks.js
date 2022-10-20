@@ -16,7 +16,7 @@ function ServicesBlocks({servicesListed}) {
 
                 return (
                     <div className="services_block" key={idService}>
-                        <div className="services_text">
+                        <div data-aos="fade-right" data-aos-duration="1500"  className="services_text">
                             <div className="services_heading">
                                 <p>{nameService}</p>
                                 <img src={imageLine}/>
@@ -28,7 +28,7 @@ function ServicesBlocks({servicesListed}) {
                                 </button>
                             </div>
                         </div>
-                        <div className="services_img">
+                        <div data-aos="fade-left" data-aos-duration="1500"  className="services_img">
                             <img src={imageService}/>
                         </div>
                     </div>
