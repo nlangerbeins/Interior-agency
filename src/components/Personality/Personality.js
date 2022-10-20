@@ -24,7 +24,7 @@ function Personality() {
       
         return (
           <div className='personality__show_more'>
-            {isExpanded ? fullText : `${fullText.slice(0, descriptionLength)}...`}
+            {isExpanded ? fullText : `${fullText.slice(0, descriptionLength)} ...`}
                 <button onClick={toggleText} className='show_more'>
                 {isExpanded ? 'Show less' : 'Show more'}
                 <img src={lineShort} alt='line'/>

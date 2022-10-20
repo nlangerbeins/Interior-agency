@@ -21,7 +21,7 @@ function ServicesBlocks({servicesListed}) {
                                 <p>{nameService}</p>
                                 <img src={imageLine}/>
                             </div>
-                            <div className="services_description">{showMore ? description : description.substring(0, 300)}</div>
+                            <div className="services_description">{showMore ? description : description.substring(0, 300) + '...'}</div>
                             <div className="services__show_more">
                                 <button onClick={() => showTextOnClick(element)} className='show_more'>{showMore ? 'Show less' : 'Show more'}
                                     <img src={lineShort} alt='line'/>

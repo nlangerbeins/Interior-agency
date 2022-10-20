@@ -42,6 +42,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    color: #000;
 }
 
 .show_more img {
