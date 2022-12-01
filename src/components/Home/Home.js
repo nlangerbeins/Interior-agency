@@ -18,7 +18,6 @@ function Home() {
         AOS.init();
       }, [])
 
-
     return (
         <div className='home'>
 
