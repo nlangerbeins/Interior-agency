@@ -19,8 +19,7 @@ function Home() {
       }, [])
 
     return (
-        <div className='home'>
-
+        <main className='home'>
             <Slider/>
             <div data-aos="fade-up" data-aos-duration="1500" className='description'>
                 <h3>Interior design solutions for residential interiors</h3>
@@ -77,7 +76,7 @@ function Home() {
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500" className='section_img'>
-                    <img src={projects} alt='office'/>
+                    <img src={projects} alt='office' titel='office'/>
                 </div>
             </section>
             <section className='section'>
@@ -104,7 +103,7 @@ function Home() {
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500" className='section_img'>
-                    <img src={services} alt='office'/>
+                    <img src={services} alt='office' titel='office'/>
                 </div>
             </section>
             <div data-aos="fade-up" data-aos-duration="1500" className='description'>
@@ -113,9 +112,8 @@ function Home() {
             </div>
 
             <Explore/>
-        </div>
-    )
-    
+        </main>
+    ) 
 }
 
 export default Home;

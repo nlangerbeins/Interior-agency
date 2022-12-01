@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { dataProjects } from './dataProjects';
 import ChosenProjects from './ChosenProjects';
 import Buttons from './Buttons';
-import lineLong from './img/lineLong.png'
 
 
 function Projects() {
@@ -18,7 +17,7 @@ function Projects() {
 
     return <div className='home_personality'>
         <div className="personality_titel">
-            <img src={titel} className="slider_img"/>
+            <img src={titel} alt="sofa" titel="sofa" className="slider_img"/>
         </div>
         <div data-aos="fade-up" data-aos-duration="1500"  className='description'>
             <h3>We are untied by our love to beautiful things</h3>

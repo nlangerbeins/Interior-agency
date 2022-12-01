@@ -11,7 +11,7 @@ function Services() {
 
     return <div className='home_services'>
         <div className="personality_titel">
-            <img src={titel} className="slider_img"/>
+            <img src={titel} alt="office" className="slider_img"/>
         </div>
         <div data-aos="fade-up" data-aos-duration="1500" className='description'>
             <h3>Where know-how meets instinct</h3>

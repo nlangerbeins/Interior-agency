@@ -47,11 +47,11 @@ function Slider() {
     return <div>
         <div className='container_slider'> 
             <button onClick={back} className='btn_back'>
-                <img src={arrowPrev}/>
+                <img src={arrowPrev} alt='arrow'/>
             </button>
-            <img src={image} className='slider_img'/>
+            <img src={image} className='slider_img' alt='interior'/>
             <button onClick={next} className='btn_next'>
-            <img src={arrowNext}/>
+            <img src={arrowNext} alt="arrow"/>
             </button>
             <div className='container_dot'>
                 {Array.from({length:3}).map((item, index) => (

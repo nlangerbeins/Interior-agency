@@ -19,7 +19,7 @@ function ServicesBlocks({servicesListed}) {
                         <div data-aos="flip-left" data-aos-duration="1500" className="services_text">
                             <div className="services_heading">
                                 <p>{nameService}</p>
-                                <img src={imageLine}/>
+                                <img src={imageLine} alt="line"/>
                             </div>
                             <div className="services_description">{showMore ? description : description.substring(0, 300) + '...'}</div>
                             <div className="services__show_more">
@@ -29,7 +29,7 @@ function ServicesBlocks({servicesListed}) {
                             </div>
                         </div>
                         <div data-aos="flip-left" data-aos-duration="1500" className="services_img">
-                            <img src={imageService}/>
+                            <img src={imageService} alt={nameService} titel={nameService}/>
                         </div>
                     </div>
                 )
